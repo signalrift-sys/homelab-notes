@@ -1,4 +1,4 @@
-# Homelab Notes
+# Homelab Notes (Security Focused)
 
 High level documentation for a privacy-focused, security-first homelab.
 
@@ -10,8 +10,16 @@ This repo contains:
 
 No real IPs, domains or sensitive configs are included. All examples are redacted and conceptual.
 
+## Design Principles
+
+- Privacy-first by default
+- Minimal exposed surface
+- Observable failure over silent failure
+- Portatbility
+
 ## Structure
 - `network/` – topology, subnets, flow diagrams
-- `services/` – Mullvad VM, AdGuard DNS, Tailscale
 - `security/` – whitelist model, backups, monitoring
+- `services/` – Mullvad VM, AdGuard DNS, Tailscale, ntfy, Uptime Kuma
+
 
