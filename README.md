@@ -1,6 +1,6 @@
 # Homelab Notes (Security Focused)
 
-High level documentation for a privacy-focused, security-first homelab.
+High-level security architecture documentation for a privacy-focused homelab.
 
 This repo contains:
 - Sanitised network topology notes
