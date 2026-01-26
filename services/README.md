@@ -1,8 +1,6 @@
 # Services
 
-This section documents the core services in my homelab, listed in deployment
-and dependency order. Each page explains **why** the service exists, **how**
-it is deployed, and **what problem it solves**.
+Each page explains why the service exists, the trust assumptions it introduces, and the problems it is intended to solve.
 
 ## Service Order
 
