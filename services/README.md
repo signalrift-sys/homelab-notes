@@ -9,7 +9,7 @@ it is deployed, and **what problem it solves**.
 1. [Proxmox](proxmox.md)  
    Host.
 
-2. [Tailscale](Tailscale.md)  
+2. [Tailscale](tailscale.md)  
    Secure remote access and control plane.
 
 3. [AdGuard Home](adguardhome.md)  
