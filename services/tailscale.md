@@ -1,10 +1,10 @@
 # Tailscale
 
 ## Role in Architecture
-Primary access layer into the homelab.
+Primary authenticated access layer into the homelab. All administrative access assumes Tailscale is functioning.
 
 ## Trust Model
-What Tailscale is trusted with, and what it is explicitly not.
+Tailscale is trusted for device identity and encrypted transport. It is not trusted for authorisation decisions beyond network reachability.
 
 ## Threats Addressed
 - Remote access exposure
