@@ -6,7 +6,7 @@ it is deployed, and **what problem it solves**.
 
 ## Service Order
 
-1. [Tailscale](tailscale.md)  
+1. [Tailscale](Tailscale.md)  
    Secure remote access and control plane.
 
 2. [AdGuard Home](adguardhome.md)  
