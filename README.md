@@ -14,7 +14,7 @@ No real IPs, domains or sensitive configs are included. All examples are redacte
 
 - Privacy-first by default
 - Minimal exposed surface
-- Observable failure over silent failure
+- Observable failure over silent failure. Failures should be detectable and alerting-enabled rather than hidden.
 - Portatbility
 
 ## Planned Structure
