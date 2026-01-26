@@ -17,7 +17,7 @@ No real IPs, domains or sensitive configs are included. All examples are redacte
 - Observable failure over silent failure
 - Portatbility
 
-## Structure
+## Planned Structure
 - `network/` – topology, subnets, flow diagrams
 - `security/` – whitelist model, backups, monitoring
 - `services/` – Mullvad VM, AdGuard DNS, Tailscale, ntfy, Uptime Kuma
