@@ -6,20 +6,17 @@ it is deployed, and **what problem it solves**.
 
 ## Service Order
 
-1. [Proxmox](proxmox.md)  
-   Host.
-
-2. [Tailscale](tailscale.md)  
+1. [Tailscale](tailscale.md)  
    Secure remote access and control plane.
 
-3. [AdGuard Home](adguardhome.md)  
+2. [AdGuard Home](adguardhome.md)  
    DNS filtering and visibility.
 
-4. [Mullvad](mullvad.md)  
+3. [Mullvad](mullvad.md)  
    Outbound traffic privacy and egress control.
 
-5. [Uptime Kuma](uptime-kuma.md)  
+4. [Uptime Kuma](uptime-kuma.md)  
    Service and reachability monitoring.
 
-6. [ntfy](ntfy.md)  
+5. [ntfy](ntfy.md)  
    Alert delivery and notification fan-out.
