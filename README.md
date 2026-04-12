@@ -38,9 +38,9 @@ No real IPs, domains or sensitive configs are included. All examples are redacte
 - Continue refining whitelist and outbound restrictions.
 
 ## Planned Structure
-- `network/` – topology, subnets, traffic flow
-- `security/` – whitelist model, monitoring, backups
+- [networks/](./networks/) – topology, subnets, traffic flow
+- [security/](./security/) – whitelist model, monitoring, backups
 - [services/](./services/) – Mullvad VM, AdGuard, Tailscale, ntfy, Uptime Kuma
-- `incidents/` – real-world incidents, root cause analysis and resolution
+- [incidents/](./incidents/) – real-world incidents, root cause analysis and resolution
 
 
