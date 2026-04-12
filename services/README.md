@@ -1,20 +1,22 @@
 # Services
 
-Each page explains why the service exists, the trust assumptions it introduces, and the problems it is intended to solve.
+Each service is documented with its role, trust assumptions and the problems it is designed to solve.
 
-## Service Order
+These services are intentionally separated to enforce clear roles, reduce complexity and improve observability and control.
+
+## Core Services
 
 1. [Tailscale](tailscale.md)  
-   Secure remote access and control plane.
+   Secure remote access and private control plane, avoiding direct exposure to the internet.
 
 2. [AdGuard Home](adguardhome.md)  
-   DNS filtering and visibility.
+   Centralised DNS filtering, visibility and control over client resolutiion.
 
 3. [Mullvad](mullvad.md)  
-   Outbound traffic privacy and egress control.
+   Enforced outbound routing, providing privacy and controlled egress.
 
 4. [Uptime Kuma](uptime-kuma.md)  
-   Service and reachability monitoring.
+   Internal and external service monitoring with reachability validation.
 
 5. [ntfy](ntfy.md)  
-   Alert delivery and notification fan-out.
+   Alert delivery system for out-of-band notifications.
