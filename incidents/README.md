@@ -1,4 +1,4 @@
 # Incidents
 
-- [Loss of VPN egress (Mullvad)](./mullvad.md)
+- [VPN Gateway Bypass (Mullvad)](./mullvad.md)
 - [Loss of remote access (Tailscale)](./tailscale.md)
