@@ -7,15 +7,22 @@
 ## Overview
 This homelab is designed to enforce controlled outbound traffic, centralised DNS filtering and ensure privacy through VPN routing, while maintaining secure remote access and external monitoring visibility.
 
+## Design Goals
+- Eliminate ISP visibility of DNS and outbound traffic
+- Centralise DNS filtering and logging
+- Route all outbound traffic through Mullvad VPN
+- Provide secure remote access without exposing services publicly
+- Maintain external monitoring for full outage detection
+- Bypass limitations of ISP-provided routers
+
 ## Primary Traffic Flows
 - LAN -> Adguard -> Mullvad -> Internet
-- Remote access -> Tailscale -> Proxmox -> internal services
 
 ## Access Model
-Remote access is handled via Tailscale, providing secure entry into the Proxmox host without exposing services publicly.
+- Remote access -> Tailscale -> Proxmox -> Adguard -> Mullvad -> Internet
 
 ## Monitoring
-External monitoring is handled via a VPS running Uptime Kuma and ntfy, ensuring alerting remains functional even if the homelab is offline.
+- External monitoring is handled via a VPS running Uptime Kuma and ntfy, ensuring alerting remains functional even if the homelab is offline.
 
 ## Failure Considerations
 - Loss of Mullvad: outbound traffic fails or leaks depending on the firewall state.
