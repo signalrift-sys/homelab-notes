@@ -1,5 +1,7 @@
 # Tailscale
 
+- Draft version - structure in place, content being refined.
+
 ## Role in Architecture
 Primary authenticated access layer into the homelab. All administrative access assumes Tailscale is functioning.
 
