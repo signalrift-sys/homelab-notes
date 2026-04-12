@@ -1,5 +1,7 @@
 # Services
 
+- Draft version - structure in place, content being refined.
+
 Each service is documented with its role, trust assumptions and the problems it is designed to solve.
 
 These services are intentionally separated to enforce clear roles, reduce complexity and improve observability and control.
